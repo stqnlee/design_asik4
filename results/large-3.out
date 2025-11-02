@@ -1,0 +1,27 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.11/libexec/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+Loaded graph: n=50, edges=59, source=0
+
+SCC count: 3
+ comp 0 size=7 nodes=[4, 6, 5, 11, 10, 13, 12]
+ comp 1 size=40 nodes=[49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 3, 2, 1, 0]
+ comp 2 size=3 nodes=[9, 8, 7]
+SCC metrics: time(ns)=39958, dfsVisits=50, dfsEdges=59, kahnPushes=0, kahnPops=0, relaxations=0
+
+Condensation: compCount=3
+Condensation edges (unique): 2
+
+Topological order of components: [2, 1, 0]
+Topo metrics: time(ns)=16250, dfsVisits=0, dfsEdges=0, kahnPushes=3, kahnPops=3, relaxations=0
+
+Derived order of original tasks after SCC compression: [9, 8, 7, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 3, 2, 1, 0, 4, 6, 5, 11, 10, 13, 12]
+
+Shortest distances from source node's component (1):
+ comp 0 : 2
+ comp 1 : 0
+ comp 2 : INF
+
+Longest path in condensation (critical path): length=7 path=[2, 1, 0]
+DAG metrics: time(ns)=0, dfsVisits=0, dfsEdges=0, kahnPushes=0, kahnPops=0, relaxations=3
