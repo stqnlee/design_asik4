@@ -1,0 +1,31 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.11/libexec/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+Loaded graph: n=14, edges=18, source=9
+
+SCC count: 5
+ comp 0 size=3 nodes=[8, 7, 6]
+ comp 1 size=1 nodes=[13]
+ comp 2 size=1 nodes=[12]
+ comp 3 size=1 nodes=[11]
+ comp 4 size=8 nodes=[10, 9, 5, 4, 3, 2, 1, 0]
+SCC metrics: time(ns)=25750, dfsVisits=14, dfsEdges=18, kahnPushes=0, kahnPops=0, relaxations=0
+
+Condensation: compCount=5
+Condensation edges (unique): 4
+
+Topological order of components: [4, 0, 3, 2, 1]
+Topo metrics: time(ns)=15625, dfsVisits=0, dfsEdges=0, kahnPushes=5, kahnPops=5, relaxations=0
+
+Derived order of original tasks after SCC compression: [10, 9, 5, 4, 3, 2, 1, 0, 8, 7, 6, 11, 12, 13]
+
+Shortest distances from source node's component (4):
+ comp 0 : 2
+ comp 1 : 6
+ comp 2 : 4
+ comp 3 : 3
+ comp 4 : 0
+
+Longest path in condensation (critical path): length=6 path=[4, 3, 2, 1]
+DAG metrics: time(ns)=0, dfsVisits=0, dfsEdges=0, kahnPushes=0, kahnPops=0, relaxations=8
